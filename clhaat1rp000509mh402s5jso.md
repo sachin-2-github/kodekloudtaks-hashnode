@@ -1,16 +1,18 @@
 ---
 title: "Task 31- Install the Telnet package"
+seoDescription: "Install the Telnet package"
 datePublished: Fri May 05 2023 08:32:38 GMT+0000 (Coordinated Universal Time)
 cuid: clhaat1rp000509mh402s5jso
 slug: task-31-install-the-telnet-package
+tags: linux, kodekloud
 
 ---
 
-  
-
 Problem:
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683274282734/4cf4e498-7496-41e4-bd57-ea0ce14c8f21.png align="center")
+> As per new application requirements shared by the `Nautilus` project development team, several new packages need to be installed on all app servers in `Stratos Datacenter`. Most of them are completed except for `telnet`
+> 
+> Therefore, install the `telnet` package on all `app-servers`
 
 Solution:
 
