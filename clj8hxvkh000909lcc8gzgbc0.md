@@ -22,7 +22,7 @@ tags: linux, kodekloud
 2. Install
     
     ```plaintext
-    sudo yum install vsftpd -y 
+    sudo yum install vsftpd -y
     ```
     
 3. Check the version to verify the installation.
@@ -52,4 +52,4 @@ tags: linux, kodekloud
 
 ## Validation:
 
-vsftpd service should in running on all `app-servers.`
+`vsftpd` service should in running on all `app-servers.`
