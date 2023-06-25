@@ -83,10 +83,10 @@ tags: linux, kodekloud
 3. Finally, Restart the ssh service
     
     ```plaintext
-    sudo systemctl resart sshd
+    sudo systemctl restart sshd
     ```
     
-4. If you want to check the sftp connection then follow the command
+4. If you want to check the `sftp` connection then follow the command
     
     ```plaintext
     sftp rose@<app-server1-IP/hostname>
