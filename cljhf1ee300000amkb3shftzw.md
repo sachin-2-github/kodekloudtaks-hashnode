@@ -65,43 +65,46 @@ sudo systemctl enable nginx
 
 Let's do some configurations
 
-1. Create `index.html` file under the nginx root directory
+* Create `index.html` file under the nginx root directory
     
-2. To see the Root directory of the nginx Navigate to `/usr/share/nginx/html` directory
+* To see the Root directory of the nginx Navigate to `/usr/share/nginx/html` directory
     
-3. Now do `ls -al /usr/share/nginx/html/index.html`
+* Now do `ls -al /usr/share/nginx/html/index.html`
     
-    *Note: You will find a link* `index.html` *pointing to the original file. Go to that pointed file and edit that* `index.html` *file. If it exists there o/w create a new file under that directory. So in our case, the HTML directory was created under '*`doc/`*' directory. So I had to create it and edit the index.html file*
-    
+
+*Note: You will find a link* `index.html` *pointing to the original file. Go to that pointed file and edit that* `index.html` *file. If it exists there o/w create a new file under that directory. So in our case, the HTML directory was created under the '*`doc/`*' directory. So I had to create it and edit the index.html file*
 
 The steps I did were
 
-3.1. Created HTML directory
-
-3.2. Created index.html file under it ( i.e HTML/index.html)
-
-3.3. Added HTML content `Welcome!` inside index.html
+* Created HTML directory
+    
+* Created index.html file under it ( i.e HTML/index.html)
+    
+* Added HTML content `Welcome!` inside index.html
+    
 
 1. Copy or move the `nautilus.crt` and `nautilus.key` under `/etc/nginx/` directory
     
 2. Edit the config file located at `/etc/ngix/nginx.conf` . Uncomment the entire server block and mention the certificate and key file path like below.
     
-    ```plaintext
-    ssl_certificate     /etc/nginx/nautilus.crt;
-    ssl_certificate_key  /etc/nginx/nautilus.key;
-    ```
-    
-3. Restart the Nginx server
+
+```plaintext
+ssl_certificate     /etc/nginx/nautilus.crt;
+ssl_certificate_key  /etc/nginx/nautilus.key;
+```
+
+1. Restart the Nginx server
     
 
 ```plaintext
 systemctl restart nginx
 ```
 
-12 Access the site with the curl command
+1. Access the site with the curl command
+    
 
 ```plaintext
 curl -Ik https://<Ip/hostname of app-server3>
 ```
 
-Response should be `200 ok.`
+1. Response should be `200 ok.`
