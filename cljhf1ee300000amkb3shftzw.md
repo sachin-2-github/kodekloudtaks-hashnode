@@ -43,6 +43,9 @@ sudo yum install nginx -y
 1. Check version
     
 
+1. Check version
+    
+
 ```plaintext
 nginx -v
 ```
