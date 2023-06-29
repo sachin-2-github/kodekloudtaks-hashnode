@@ -63,25 +63,25 @@ sudo systemctl enable nginx
 
 *Now we have installed the Nginx properly*
 
-Let's do some configurations
-
-* Create `index.html` file under the nginx root directory
-    
-* To see the Root directory of the nginx Navigate to `/usr/share/nginx/html` directory
-    
-* Now do `ls -al /usr/share/nginx/html/index.html`
-    
+> Let's do some configurations
+> 
+> * Create `index.html` file under the nginx root directory
+>     
+> * To see the Root directory of the nginx Navigate to `/usr/share/nginx/html` directory
+>     
+> * Now do `ls -al /usr/share/nginx/html/index.html`
+>     
 
 *Note: You will find a link* `index.html` *pointing to the original file. Go to that pointed file and edit that* `index.html` *file. If it exists there o/w create a new file under that directory. So in our case, the HTML directory was created under the '*`doc/`*' directory. So I had to create it and edit the index.html file*
 
-The steps I did were
-
-* Created HTML directory
-    
-* Created index.html file under it ( i.e HTML/index.html)
-    
-* Added HTML content `Welcome!` inside index.html
-    
+> The steps I did were
+> 
+> * Created HTML directory
+>     
+> * Created index.html file under it ( i.e HTML/index.html)
+>     
+> * Added HTML content `Welcome!` inside index.html
+>     
 
 1. Copy or move the `nautilus.crt` and `nautilus.key` under `/etc/nginx/` directory
     
@@ -107,4 +107,4 @@ systemctl restart nginx
 curl -Ik https://<Ip/hostname of app-server3>
 ```
 
-1. Response should be `200 ok.`
+Response should be `200 ok.`
