@@ -31,76 +31,70 @@ tags: linux, kodekloud
     
 2. Install the `EPEL` repo for the `Nginx` package
     
-
-```plaintext
- sudo yum install epel-release -y
-```
-
-1. Install `Nginx`
+    ```plaintext
+     sudo yum install epel-release -ysudo yum install epel-release -y
+    ```
     
-
-```plaintext
-sudo yum install nginx -y
-```
-
-1. Check version
+3. Install `Nginx`
     
-
-```plaintext
-nginx -v
-```
-
-1. Start the `Nginx` service and check the status.
+    ```plaintext
+    sudo yum install nginx -y
+    ```
     
-
-```plaintext
-sudo systemctl start nginx && systemctl status nginx
-```
-
-> *Now we have installed the Nginx properly*
-> 
-> Let's do some configurations
-> 
-> * Create `index.html` file under the `nginx` root directory
->     
-> * To see the Root directory of the `nginx` Navigate to `/usr/share/nginx/html` directory
->     
-> * Now do `ls -al /usr/share/nginx/html/index.html`
->     
-> 
-> *Note: You will find a link* `index.html` *pointing to the original file. Go to that pointed file and edit that* `index.html` *file. If it exists there o/w create a new file under that directory. So in our case, the* `HTML` *directory was created under the '*`doc/`*' directory. So I had to create it and edit the index.html file*
-> 
-> The steps I did were
-> 
-> * Created HTML directory stepping back to 2 steps under `doc` directory.
->     
-> * Created index.html file under it ( i.e HTML/index.html)
->     
-> * Added HTML content `Welcome!` Inside `index.html`
->     
-
-1. Copy or move the `nautilus.crt` and `nautilus.key` under `/etc/nginx/` or any other directory you would prefer
+4. Check version
     
-2. Edit the config file located at `/etc/ngix/nginx.conf` Uncomment the entire server block and mention the `certificate` and `key` file path like below.
+    ```plaintext
+    nginx -v
+    ```
     
-
-```plaintext
-ssl_certificate     /etc/nginx/nautilus.crt;
-ssl_certificate_key  /etc/nginx/nautilus.key;
-```
-
-1. Restart the Nginx server
+5. Start the `Nginx` service and check the status.
     
-
-```plaintext
-systemctl restart nginx
-```
-
-1. Access the site with the curl command
+    ```plaintext
+    sudo systemctl start nginx && systemctl status nginx
+    ```
     
-
-```plaintext
-curl -Ik https://<Ip/hostname of app-server3>
-```
+    > *Now we have installed the Nginx properly*
+    > 
+    > Let's do some configurations
+    > 
+    > * Create `index.html` file under the `nginx` root directory
+    >     
+    > * To see the Root directory of the `nginx` Navigate to `/usr/share/nginx/html` directory
+    >     
+    > * Now do `ls -al /usr/share/nginx/html/index.html`
+    >     
+    > 
+    > *Note: You will find a link* `index.html` *pointing to the original file. Go to that pointed file and edit that* `index.html` *file. If it exists there o/w create a new file under that directory. So in our case, the* `HTML` *directory was created under the '*`doc/`*' directory. So I had to create it and edit the index.html file*
+    > 
+    > The steps I did were
+    > 
+    > * Created HTML directory stepping back to 2 steps under `doc` directory.
+    >     
+    > * Created index.html file under it ( i.e HTML/index.html)
+    >     
+    > * Added HTML content `Welcome!` Inside `index.html`
+    >     
+    
+6. Copy or move the `nautilus.crt` and `nautilus.key` under `/etc/nginx/` or any other directory you would prefer
+    
+7. Edit the config file located at `/etc/ngix/nginx.conf` Uncomment the entire server block and mention the `certificate` and `key` file path like below.
+    
+    ```plaintext
+    ssl_certificate     /etc/nginx/nautilus.crt;
+    ssl_certificate_key  /etc/nginx/nautilus.key;
+    ```
+    
+8. Restart the Nginx server.
+    
+    ```plaintext
+    systemctl restart nginx
+    ```
+    
+9. Access the site with the curl command
+    
+    ```plaintext
+    curl -Ik https://<Ip/hostname of app-server3>
+    ```
+    
 
 Response should be `200 ok.`
