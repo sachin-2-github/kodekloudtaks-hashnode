@@ -24,16 +24,18 @@ tags: linux, kodekloud
 
 ## Solution:
 
+*<mark>Please ensure to review the task instructions carefully and modify the commands according to your specific server, username, and other relevant details.</mark>*
+
 1. ssh into the App server3 with the sudo privileges
     
-2. Install the EPEL repo for the Nginx package
+2. Install the `EPEL` repo for the `Nginx` package
     
 
 ```plaintext
  sudo yum install epel-release -y
 ```
 
-1. Install Nginx
+1. Install `Nginx`
     
 
 ```plaintext
@@ -47,7 +49,7 @@ sudo yum install nginx -y
 nginx -v
 ```
 
-1. Start the Nginx service and check the status.
+1. Start the `Nginx` service and check the status.
     
 
 ```plaintext
