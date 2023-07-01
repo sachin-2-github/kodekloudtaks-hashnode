@@ -32,7 +32,7 @@ tags: linux, kodekloud
 2. Install the `EPEL` repo for the `Nginx` package
     
     ```plaintext
-     sudo yum install epel-release -ysudo yum install epel-release -y
+     sudo yum install epel-release -y
     ```
     
 3. Install `Nginx`
@@ -61,10 +61,12 @@ tags: linux, kodekloud
     >     
     > * To see the Root directory of the `nginx` Navigate to `/usr/share/nginx/html` directory
     >     
-    > * Now do `ls -al /usr/share/nginx/html/index.html`
+    > * Now do `ls -al index.html`
     >     
     > 
     > *Note: You will find a link* `index.html` *pointing to the original file. Go to that pointed file and edit that* `index.html` *file. If it exists there o/w create a new file under that directory. So in our case, the* `HTML` *directory was created under the '*`doc/`*' directory. So I had to create it and edit the index.html file*
+    > 
+    > ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1688212028930/8fc5120d-7544-4542-9f61-dfc4cf52eacd.png align="center")
     > 
     > The steps I did were
     > 
@@ -87,7 +89,7 @@ tags: linux, kodekloud
 8. Restart the Nginx server.
     
     ```plaintext
-    systemctl restart nginx
+    sudo systemctl restart nginx
     ```
     
 9. Access the site with the curl command
