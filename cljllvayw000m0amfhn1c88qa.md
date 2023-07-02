@@ -13,8 +13,6 @@ tags: linux, kodekloud
 
 > During the monthly compliance meeting, it was pointed out that several servers in the `Stratos DC` do not have a valid banner. The security team has provided serveral approved templates which should be applied to the servers to maintain compliance. These will be displayed to the user upon a successful login.
 > 
->   
-> 
 > Update the `message of the day` on all application and db servers for `Nautilus`. Make use of the approved template located at `/home/thor/nautilus_banner` on jump host
 
 ## Solution:
@@ -26,7 +24,7 @@ tags: linux, kodekloud
 3. Copy the banner template from `jump-server` to the `app-server`
     
     ```plaintext
-    scp thor@jump_host.stratos.xfusioncorp.com:/home/thor/nautilus_banner /home/tony
+    scp thor@jump_host.stratos.xfusioncorp.com:/home/thor/nautilus_banner /home/tony/
     ```
     
 4. Now copy this template to the '`message of the day`" file".
@@ -52,4 +50,4 @@ For further details on the error and its resolution, please refer to the Kodeklo
 
 ## Reference:
 
-## [https://www.cyberciti.biz/faq/how-can-i-change-the-message-of-the-day-on-my-linux-server/#:~:text=The%20abbreviation%20%E2%80%9Cmotd%E2%80%9D%20stands%20for,edit%20%2Fetc%2Fmotd%20file](https://www.cyberciti.biz/faq/how-can-i-change-the-message-of-the-day-on-my-linux-server/#:~:text=The%20abbreviation%20%E2%80%9Cmotd%E2%80%9D%20stands%20for,edit%20%2Fetc%2Fmotd%20file).
+[https://www.cyberciti.biz/faq/how-can-i-change-the-message-of-the-day-on-my-linux-server/#:~:text=The%20abbreviation%20%E2%80%9Cmotd%E2%80%9D%20stands%20for,edit%20%2Fetc%2Fmotd%20file](https://www.cyberciti.biz/faq/how-can-i-change-the-message-of-the-day-on-my-linux-server/#:~:text=The%20abbreviation%20%E2%80%9Cmotd%E2%80%9D%20stands%20for,edit%20%2Fetc%2Fmotd%20file)
