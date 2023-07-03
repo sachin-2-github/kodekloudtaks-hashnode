@@ -1,11 +1,12 @@
 ---
-title: "Task 42 - Install and Configure Tomcat Server"
+title: "Task - Install and Configure Tomcat Server"
 seoTitle: "Install and Configure Tomcat Server"
 seoDescription: "Install and Configure Tomcat Server, 
 The Nautilus application development team recently finished the beta version of one of their Java-based applications,"
 datePublished: Sat Jun 17 2023 07:15:10 GMT+0000 (Coordinated Universal Time)
 cuid: cliznz1i6001509l9elo34gv5
-slug: task-42-install-and-configure-tomcat-server
+slug: task-install-and-configure-tomcat-server
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688402542035/a99ff841-2be8-445f-9ded-cb5ed438db46.jpeg
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1686986067270/840bf2e0-ee14-4df5-8252-9fb0eece600c.png
 tags: linux, linux-for-beginners, kodekloud
 
