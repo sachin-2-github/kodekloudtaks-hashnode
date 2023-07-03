@@ -1,9 +1,10 @@
 ---
-title: "Task 31- Install the Telnet package"
+title: "Task - Install the Telnet package"
 seoDescription: "Install the Telnet package"
 datePublished: Fri May 05 2023 08:32:38 GMT+0000 (Coordinated Universal Time)
 cuid: clhaat1rp000509mh402s5jso
-slug: task-31-install-the-telnet-package
+slug: task-install-the-telnet-package
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688402767123/164655db-3492-471c-a83e-64e67c61ee9d.jpeg
 tags: linux, kodekloud
 
 ---
