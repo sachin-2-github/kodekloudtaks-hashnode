@@ -5,6 +5,7 @@ seoDescription: "Task - Disable Root Login"
 datePublished: Mon Jul 03 2023 16:34:52 GMT+0000 (Coordinated Universal Time)
 cuid: cljn30gbq000309l99iwt9gcc
 slug: task-disable-root-login
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688402839634/91d5aa6b-4869-4789-aed4-4e29b7c4fc2d.png
 tags: kodekloud
 
 ---
