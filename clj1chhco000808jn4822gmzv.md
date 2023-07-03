@@ -1,10 +1,11 @@
 ---
-title: "Task 41- Install And Configure SFTP"
+title: "Task - Install And Configure SFTP"
 seoTitle: "Install And Configure SFTP"
 seoDescription: "Install And Configure SFTP"
 datePublished: Sun Jun 18 2023 11:29:07 GMT+0000 (Coordinated Universal Time)
 cuid: clj1chhco000808jn4822gmzv
-slug: task-41-install-and-configure-sftp
+slug: task-install-and-configure-sftp
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688402655416/5ec13d6c-389f-4df3-8e1a-1dcce4947e38.webp
 tags: linux, kodekloud
 
 ---
