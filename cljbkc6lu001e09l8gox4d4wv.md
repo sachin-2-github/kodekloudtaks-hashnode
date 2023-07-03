@@ -1,10 +1,11 @@
 ---
-title: "Task 39- Linux Postfix Mail Server"
+title: "Task - Linux Postfix Mail Server"
 seoTitle: "Linux Postfix Mail Server"
 seoDescription: "Task 39- Linux Postfix Mail Server"
 datePublished: Wed Jun 14 2023 15:06:31 GMT+0000 (Coordinated Universal Time)
 cuid: cljbkc6lu001e09l8gox4d4wv
-slug: task-39-linux-postfix-mail-server
+slug: task-linux-postfix-mail-server
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688403002899/80da7382-4729-48dd-85ca-5b9867081ac8.png
 tags: linux, kodekloud
 
 ---
