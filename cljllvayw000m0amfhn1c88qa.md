@@ -5,6 +5,7 @@ seoDescription: "Task- Linux Banner"
 datePublished: Sun Jul 02 2023 15:47:12 GMT+0000 (Coordinated Universal Time)
 cuid: cljllvayw000m0amfhn1c88qa
 slug: task-linux-banner
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688402388465/638d5e87-469a-4309-af76-135671596849.png
 tags: linux, kodekloud
 
 ---
