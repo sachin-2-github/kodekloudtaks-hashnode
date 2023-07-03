@@ -5,6 +5,7 @@ seoDescription: "Task- Setup SSL for Nginx"
 datePublished: Fri Jun 30 2023 09:07:34 GMT+0000 (Coordinated Universal Time)
 cuid: cljicpnp200080amign3z8c8r
 slug: task-setup-ssl-for-nginx
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688402273243/69198b91-acda-4797-a599-cf1733f3b77f.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1688116013359/6deeb73d-9fb2-4cbd-98f4-e51d09116e72.png
 tags: linux, kodekloud
 
