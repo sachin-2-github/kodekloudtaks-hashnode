@@ -1,10 +1,11 @@
 ---
-title: "Task 43 - IPtables Installation And Configuration"
+title: "Task  - IPtables Installation And Configuration"
 seoTitle: "IPtables Installation And Configuration"
 seoDescription: "IPtables Installation And Configuration"
 datePublished: Sun Jun 18 2023 12:15:42 GMT+0000 (Coordinated Universal Time)
 cuid: clj1e5e4o000109jj2a9x8irx
-slug: task-43-iptables-installation-and-configuration
+slug: task-iptables-installation-and-configuration
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688542906049/a5bc74c1-d728-47e6-a6cd-9d08b916f5d2.png
 tags: kodekloud
 
 ---
@@ -12,8 +13,6 @@ tags: kodekloud
 ## Problem:
 
 > We have one of our websites up and running on our `Nautilus` infrastructure in `Stratos DC`. Our security team has raised a concern that right now Apache’s port i.e `5001` is open for all since there is no firewall installed on these hosts. So we have decided to add some security layer for these hosts and after discussions and recommendations we have come up with the following requirements:
-> 
->   
 > 
 > 1. Install `iptables` and all its dependencies on each app host.
 >     
@@ -53,16 +52,16 @@ tags: kodekloud
 
 ## Verify:
 
-To verify whether the rules are properly working or not try `curl` to apache server.
+To verify whether the rules are properly working or not try `curl` to Apache server.
 
 1. ssh into the LBR server.
     
 2. Try curl command
     
-
-```plaintext
-curl -I http://<any-app-sever:5001>
-```
+    ```plaintext
+    curl -I http://<any-app-sever:5001>
+    ```
+    
 
 *Remember in place of* `any-app-seve`*r put the* `IP` *or* `hostname` *of any app servers. Check one by one for all 3 app servers. It should give* `200 ok` *response*
 
