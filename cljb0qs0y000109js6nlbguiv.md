@@ -1,10 +1,11 @@
 ---
-title: "Task 47 -  Add Response Headers in Apache"
+title: "Task  -  Add Response Headers in Apache"
 seoTitle: "Add Response Headers in Apache"
 seoDescription: "Add Response Headers in Apache"
 datePublished: Sun Jun 25 2023 05:58:07 GMT+0000 (Coordinated Universal Time)
 cuid: cljb0qs0y000109js6nlbguiv
-slug: task-47-add-response-headers-in-apache
+slug: task-add-response-headers-in-apache
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688543053330/94ed66c8-9e56-4258-8572-7c0fb24995b9.jpeg
 tags: linux, linux-for-beginners, kodekloud
 
 ---
