@@ -1,10 +1,11 @@
 ---
-title: "Task 46 - Install a package"
+title: "Task - Install a package"
 seoTitle: "Install a package"
 seoDescription: "Install a package"
 datePublished: Fri Jun 23 2023 11:36:13 GMT+0000 (Coordinated Universal Time)
 cuid: clj8hxvkh000909lcc8gzgbc0
-slug: task-46-install-a-package
+slug: task-install-a-package
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688542632839/90aebf1e-f9f9-4f87-93b5-ae947e34ab88.png
 tags: linux, kodekloud
 
 ---
