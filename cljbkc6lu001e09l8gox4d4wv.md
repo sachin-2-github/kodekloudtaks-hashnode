@@ -51,13 +51,15 @@ tags: linux, kodekloud
     
     `inet_interfaces = all`
     
-    `mydestination = $myhostname` [`localhost`](http://localhost)`.$mydomain,` [`localhost`](http://localhost)`, $mydomain home_mailbox = Maildir/`
-    
     `#inet_interfaces =` [`localhost`](http://localhost)
     
-    *Note: In most cases this last field* `inet_interfaces =` [`localhost`](http://localhost) *is uncommented so comment it out*`.`
+    `mydestination = $myhostname` [`localhost`](http://localhost)`.$mydomain,` [`localhost`](http://localhost)`, $mydomain`
     
-5. Create the mail user account which rose.
+    `home_mailbox = Maildir/`
+    
+    *Note: In most cases this last field* `inet_interfaces =` [`localhost`](http://localhost) *is uncommented so comment it out*
+    
+5. Create the mail user account which is rose.
     
     ```plaintext
      sudo yum useradd -m rose
