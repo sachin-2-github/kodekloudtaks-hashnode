@@ -82,7 +82,7 @@ tags: linux, kodekloud
 8. Configure created user in postfix Virtual Mailbox
     
     ```plaintext
-     echo "javed@stratos.xfusioncorp.com javed/Maildir/" | sudo tee -a /etc/postfix/vmailbox
+     echo "rose@stratos.xfusioncorp.com rose/Maildir/" | sudo tee -a /etc/postfix/vmailbox
     ```
     
 9. Edit the `/etc/dovecot/dovecot.conf` file and add the following lines anywhere in the file.
