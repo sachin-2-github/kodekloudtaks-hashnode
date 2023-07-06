@@ -25,6 +25,8 @@ tags: linux, kodekloud
 
 ## Solution:
 
+*<mark>Please ensure to review the task instructions carefully and modify the commands according to your specific server, username, and other relevant details.</mark>*
+
 *Note: For me, the task is for* `rose` *So I have created this documentation keeping this user. But it might be different for you so keep in mind before performing commands from this article.*
 
 1. ssh into the mail server with sudo privileges
