@@ -1,9 +1,12 @@
 ---
 title: "Task- Linux User Expiry"
+seoTitle: "Task- Linux User Expiry"
+seoDescription: "Task- Linux User Expiry"
 datePublished: Sat Jul 08 2023 16:35:18 GMT+0000 (Coordinated Universal Time)
 cuid: clju88a2700040amoakm77c0n
 slug: task-linux-user-expiry-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688834104959/517fe5b0-2613-4f89-b54b-fed1c9531a50.png
+tags: linux, kodekloud
 
 ---
 
