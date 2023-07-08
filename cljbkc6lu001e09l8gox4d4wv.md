@@ -34,13 +34,13 @@ tags: linux, kodekloud
 2. install postfix
     
     ```plaintext
-     yum install postfix -y
+     sudo yum install postfix -y
     ```
     
 3. install dovecot
     
     ```plaintext
-     yum install dovecot -y
+     sudo yum install dovecot -y
     ```
     
 4. Edit `/etc/postfix/main.cf` file and modify the fields from this file below and save it.
@@ -99,7 +99,7 @@ tags: linux, kodekloud
     
 11. Edit `/etc/dovecot/conf.d/10-ssl.conf` file and change `ssl = required` and change it to `ssl = yes` and save the file
     
-12. Generate SSL for dovecot.
+12. Generate SSL for `Dovecot`.
     
     ```plaintext
     sudo openssl req -new -x509 -days 365 -nodes -out /etc/pki/dovecot/certs/dovecot.pem -keyout /etc/pki/dovecot/private/dovecot.pem
@@ -114,7 +114,7 @@ tags: linux, kodekloud
     sudo chmod 400 /etc/pki/dovecot/private/dovecot.pem
     ```
     
-14. Finally, restart both the services and enjoy the points.
+14. Finally, restart both services and enjoy the points.
     
     ```plaintext
     sudo systemctl restart postfix
