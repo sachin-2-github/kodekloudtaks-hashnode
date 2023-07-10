@@ -39,7 +39,7 @@ tags: kodekloud
 4. Change to the directory:
     
     ```plaintext
-    bashCopy codecd /opt/news.git
+    cd /opt/news.git
     ```
     
 5. Initialize the bare repository:
