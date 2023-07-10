@@ -10,7 +10,7 @@ tags: kodekloud
 
 ---
 
-Problem:
+## Problem:
 
 > The `Nautilus` development team shared requirements with the DevOps team regarding new application development.—specifically, they want to set up a `Git` repository for that project. Create a `Git` repository on Storage server in `Stratos DC` as per details given below:
 > 
@@ -18,7 +18,7 @@ Problem:
 > 
 > After that create a `bare` repository `/opt/news.git` (make sure to use exact name).
 
-Solution:
+## Solution:
 
 *<mark>Please ensure to review the task instructions carefully and modify the commands according to your specific server, username, and other relevant details.</mark>*
 
