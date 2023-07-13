@@ -4,6 +4,7 @@ seoDescription: "Task35 - Linux Configure sudo, kodekloud"
 datePublished: Wed May 10 2023 08:03:03 GMT+0000 (Coordinated Universal Time)
 cuid: clhhey9h8000909lac4hre0u1
 slug: task-linux-configure-sudo
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689226692011/102554e3-7d39-46f8-889f-c871d31c455f.jpeg
 tags: linux, linux-for-beginners, linux-basics, kodekloud, linuxadministrator
 
 ---
