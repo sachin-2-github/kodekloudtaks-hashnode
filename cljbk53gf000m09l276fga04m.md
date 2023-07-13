@@ -1,10 +1,10 @@
 ---
-title: "Task 40 - Linux Process Troubleshooting"
+title: "Task - Linux Process Troubleshooting"
 seoTitle: "Linux Process Troubleshooting"
 seoDescription: "Linux Process Troubleshooting"
 datePublished: Wed Jun 14 2023 15:00:56 GMT+0000 (Coordinated Universal Time)
 cuid: cljbk53gf000m09l276fga04m
-slug: task-40-linux-process-troubleshooting
+slug: task-linux-process-troubleshooting
 tags: linux, kodekloud
 
 ---
