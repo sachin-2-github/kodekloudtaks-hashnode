@@ -1,10 +1,10 @@
 ---
-title: "Task34- Application Security"
+title: "Task- Application Security"
 seoTitle: "kodekloud task 32- application security, iptables, firewall"
 seoDescription: "This article helps to solve the #kodekloud task 32nd challenge under sys admin category"
 datePublished: Tue May 09 2023 06:49:09 GMT+0000 (Coordinated Universal Time)
 cuid: clhfwvdc8000k09le34bo1tti
-slug: task34-application-security
+slug: task-application-security
 tags: linux, security, firewall, linux-for-beginners, kodekloud
 
 ---
