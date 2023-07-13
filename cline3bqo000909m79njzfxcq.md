@@ -5,6 +5,7 @@ seoDescription: "kodekloud"
 datePublished: Thu Jun 08 2023 17:05:19 GMT+0000 (Coordinated Universal Time)
 cuid: cline3bqo000909m79njzfxcq
 slug: task-apache-redirects
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689226445417/b6cb1a68-efd2-46d1-ae3e-eb8b515f8af8.jpeg
 tags: linux, devops, linux-for-beginners
 
 ---
