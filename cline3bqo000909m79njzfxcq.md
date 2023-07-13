@@ -1,10 +1,10 @@
 ---
-title: "Task 38 - Apache Redirects"
+title: "Task - Apache Redirects"
 seoTitle: "Apache Redirects"
 seoDescription: "kodekloud"
 datePublished: Thu Jun 08 2023 17:05:19 GMT+0000 (Coordinated Universal Time)
 cuid: cline3bqo000909m79njzfxcq
-slug: task-38-apache-redirects
+slug: task-apache-redirects
 tags: linux, devops, linux-for-beginners
 
 ---
