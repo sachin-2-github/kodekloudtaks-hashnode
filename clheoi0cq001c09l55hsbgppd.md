@@ -1,9 +1,9 @@
 ---
-title: "Task 33-Web Server Security"
+title: "Task -Web Server Security"
 seoTitle: "kodekloud Task 32-Web Server Security"
 datePublished: Mon May 08 2023 10:07:03 GMT+0000 (Coordinated Universal Time)
 cuid: clheoi0cq001c09l55hsbgppd
-slug: task-33-web-server-security
+slug: task-web-server-security
 tags: linux, linux-for-beginners, linuxadministrator
 
 ---
