@@ -66,7 +66,7 @@ tags: kodekloud
     
     This command will install the package. We mentioned in the `cluster.pp`
     
-5. Finally, check the installed package in our `thttpd` is running or not on `app-server2`
+5. Finally, check the installed package in our `httpd` is running or not on `app-server2`
     
     ```plaintext
     sudo systemctl status httpd
