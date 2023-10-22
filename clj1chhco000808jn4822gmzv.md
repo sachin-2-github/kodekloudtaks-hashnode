@@ -35,9 +35,9 @@ tags: linux, kodekloud
     sudo passwd rose
     ```
     
-    You will be prompted to enter and confirm the password for the user "rose". Copy & Paste "TmPcZjtRQx" as the password when prompted on the terminal.
+    You will be prompted to enter and confirm the password for the user "rose". Copy and paste "TmPcZjtRQx" as the password when prompted on the terminal.
     
-3. Open the SSH server configuration file using a text editor. For example:
+3. Open the SSH server configuration file using a text editor.
     
     ```plaintext
     sudo vi /etc/ssh/sshd_config
@@ -68,7 +68,7 @@ tags: linux, kodekloud
 
 *Note: Maintain the indentation here.*
 
-1. Now created the directory
+1. Now create this directory.
     
     ```plaintext
     sudo mkdir -p /var/www/data
