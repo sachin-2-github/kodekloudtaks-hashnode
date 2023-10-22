@@ -65,29 +65,28 @@ tags: linux, kodekloud
         X11Forwarding no
     ```
     
-
-*Note: Maintain the indentation here.*
-
-1. Now create this directory.
+    *Note: Maintain the indentation here.*
+    
+6. Now create this directory.
     
     ```plaintext
     sudo mkdir -p /var/www/data
     ```
     
-2. Set the correct ownership and permissions for the directory using the following commands:
+7. Set the correct ownership and permissions for the directory using the following commands:
     
     ```plaintext
     sudo chown root:root /var/www/data
     sudo chmod 755 /var/www/data
     ```
     
-3. Finally, Restart the ssh service
+8. Finally, Restart the ssh service
     
     ```plaintext
     sudo systemctl restart sshd
     ```
     
-4. If you want to check the `sftp` connection then follow the command
+9. If you want to check the `sftp` connection then follow the command
     
     ```plaintext
     sftp rose@<app-server1-IP/hostname>
