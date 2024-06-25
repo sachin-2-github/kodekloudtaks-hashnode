@@ -5,6 +5,7 @@ seoDescription: "article to copy which tells how to copy files from host machine
 datePublished: Tue Jun 25 2024 19:19:44 GMT+0000 (Coordinated Universal Time)
 cuid: clxusjg1g000809l44mvja4xi
 slug: task-copy-file-to-docker-container
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719343349696/d70fd883-202d-4c05-bd53-50231cb233a1.png
 tags: linux, docker, kodekloud, kodekloudengineer, kodekloudtasks
 
 ---
