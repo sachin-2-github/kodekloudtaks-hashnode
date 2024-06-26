@@ -22,7 +22,7 @@ tags: kodekloud
 
 *<mark>Please ensure to review the task instructions carefully and modify the commands according to your specific server, username, and other relevant details.</mark>*
 
-1. ssh into storage server.
+1. ssh into the storage server.
     
 2. Install the git package:
     
