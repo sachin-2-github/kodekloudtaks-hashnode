@@ -10,7 +10,7 @@ tags: linux, docker, devops, docker-container, kodekloud, kodekloudengineer, kod
 
 ---
 
-# Problem:
+### Problem:
 
 > An issue has arisen with a static website running in a container named `nautilus` on `App Server 1`. To resolve the issue, investigate the following details:
 > 
@@ -19,7 +19,7 @@ tags: linux, docker, devops, docker-container, kodekloud, kodekloudengineer, kod
 > 2. Verify that the website is accessible on host port `8080` on `App Server 1`. Confirm that the command `curl`[`http://localhost:8080/`](http://localhost:8080/) works on `App Server 1`.
 >     
 
-# Solution:
+### Solution:
 
 1. ssh into App Server 1
     
