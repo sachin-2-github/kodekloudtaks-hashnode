@@ -16,8 +16,10 @@ tags: linux, docker, devops, docker-container, kodekloud, kodekloudengineer, kod
 > 
 > 1. Check if the container's volume `/usr/local/apache2/htdocs` is correctly mapped with the host's volume `/var/www/html`.
 >     
-> 2. Verify that the website is accessible on host port `8080` on `App Server 1`. Confirm that the command `curl`[`http://localhost:8080/`](http://localhost:8080/) works on `App Server 1`.
+> 2. Verify that the website is accessible on host port `8080` on `App Server 1`. Confirm that the command `curl`[`http://localhost:8080/`](http://localhost:8080/) works on `App Server`
 >     
+
+*<mark>Please ensure to review the task instructions carefully and modify the commands according to your specific server, username, and other relevant details.</mark>*
 
 ### Solution:
 
