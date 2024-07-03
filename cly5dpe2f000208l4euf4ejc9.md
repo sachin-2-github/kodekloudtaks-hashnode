@@ -12,16 +12,14 @@ tags: linux, docker, kodekloud, kodekloudengineer, kodekloudtasks
 
 ### Problem:
 
-> fter conducting a security audit within the `Stratos DC`, the Nautilus security team discovered misconfigured permissions on critical files. To address this, corrective actions are being taken by the production support team. Specifically, the file named `/etc/hostname` on `Nautilus App 3` server requires adjustments to its Access Control Lists (ACLs) as follows:  
+> fter conducting a security audit within the `Stratos DC`, the Nautilus security team discovered misconfigured permissions on critical files. To address this, corrective actions are being taken by the production support team. Specifically, the file named `/etc/hostname` on `Nautilus App 3` server requires adjustments to its Access Control Lists (ACLs) as follows:
 > 
->   
+> 1\. The file's user owner and group owner should be set to `root`.
 > 
-> 1\. The file's user owner and group owner should be set to `root`.  
->   
-> 2\. `Others` should possess `read only` permissions on the file.  
->   
-> 3\. User `siva` must not have any permissions on the file.  
->   
+> 2\. `Others` should possess `read only` permissions on the file.
+> 
+> 3\. User `siva` must not have any permissions on the file.
+> 
 > 4\. User `rod` should be granted `read only` permission on the file.
 
 *<mark>Please ensure to review the task instructions carefully and modify the commands according to your specific server, username, and other relevant details.</mark>*
@@ -42,13 +40,13 @@ tags: linux, docker, kodekloud, kodekloudengineer, kodekloudtasks
     chmod 644 /etc/hostname
     ```
     
-4. **Ensure user** `siva` has no permissions on the file:
+4. **Ensure user**`siva` has no permissions on the file:
     
     ```plaintext
     setfacl -m u:siva:--- /etc/hostname
     ```
     
-5. **Grant user** `rod` read-only permission on the file:
+5. **Grant user**`rod` read-only permission on the file:
     
     ```plaintext
     setfacl -m u:rod:r-- /etc/hostname
@@ -73,7 +71,7 @@ To verify that the permissions and ACLs have been set correctly, you can use the
 * **Check file ownership and permissions:**
     
     ```plaintext
-    bashCopy codels -l /etc/hostname
+    ls -l /etc/hostname
     ```
     
     You should see `-rw-r--r--` and `root root` as the owner and group.
@@ -81,7 +79,7 @@ To verify that the permissions and ACLs have been set correctly, you can use the
 * **Check ACLs on the file:**
     
     ```plaintext
-    bashCopy codegetfacl /etc/hostname
+    getfacl /etc/hostname
     ```
     
     The output should show the ACLs, including the entries for `siva` and `rod`.
@@ -89,4 +87,4 @@ To verify that the permissions and ACLs have been set correctly, you can use the
 
 # About me
 
-Hi I am Sachin Khamitkar and I am a passionate devops engineer and an Expert Support Engineer. As a DevOps enthusiast and technology fan, I am passionate about automating workflows, optimizing infrastructure, and improving deployment processes. I love sharing insights on cloud strategies, containerization, and continuous delivery. With 6 years of experience in Technical and Application Support, I have a strong foundation in DevOps practices. I excel in root cause analysis, SLA adherence, and enhancing software stability. My skills include log analysis, SQL reporting, and CI/CD pipeline optimization. I have a proven track record in deploying builds, patches, and maintaining production environments. Additionally, I bring expertise in incident, problem, and change management following ITIL standards. If you're as excited about DevOps as I am, let's connect 🌟 me on [LinkedIn](https://www.linkedin.com/in/sachin-khamitkar)🔗💼, [GitHub](https://github.com/sachin-2-github)💻🔗, and [Email](mailto:sachin.bmp@gmail.com)📧 for more tech tips, tutorials, and exciting projects! Let's innovate together and drive the future of DevOps! 🚀👩‍💻💡
+Hi, I am Sachin Khamitkar and I am a passionate devops engineer and an Expert Support Engineer. As a DevOps enthusiast and technology fan, I am passionate about automating workflows, optimizing infrastructure, and improving deployment processes. I love sharing insights on cloud strategies, containerization, and continuous delivery. With 6 years of experience in Technical and Application Support, I have a strong foundation in DevOps practices. I excel in root cause analysis, SLA adherence, and enhancing software stability. My skills include log analysis, SQL reporting, and CI/CD pipeline optimization. I have a proven track record in deploying builds, patches, and maintaining production environments. Additionally, I bring expertise in incident, problem, and change management following ITIL standards. If you're as excited about DevOps as I am, let's connect 🌟 me on [LinkedIn](https://www.linkedin.com/in/sachin-khamitkar)🔗💼, [GitHub](https://github.com/sachin-2-github)💻🔗, and [Email](mailto:sachin.bmp@gmail.com)📧 for more tech tips, tutorials, and exciting projects! Let's innovate together and drive the future of DevOps! 🚀👩‍💻💡
