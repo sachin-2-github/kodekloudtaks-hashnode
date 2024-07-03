@@ -31,25 +31,25 @@ tags: linux, docker, kodekloud, kodekloudengineer, kodekloudtasks
 2. **Set the user owner and group owner to root:**
     
     ```plaintext
-    chown root:root /etc/hostname
+    sudo chown root:root /etc/hostname
     ```
     
 3. **Set the file permissions to ensure 'others' have read-only access:**
     
     ```plaintext
-    chmod 644 /etc/hostname
+    sudo chmod 644 /etc/hostname
     ```
     
 4. **Ensure user**`siva` has no permissions on the file:
     
     ```plaintext
-    setfacl -m u:siva:--- /etc/hostname
+    sudo setfacl -m u:siva:--- /etc/hostname
     ```
     
 5. **Grant user**`rod` read-only permission on the file:
     
     ```plaintext
-    setfacl -m u:rod:r-- /etc/hostname
+    sudo setfacl -m u:rod:r-- /etc/hostname
     ```
     
 
