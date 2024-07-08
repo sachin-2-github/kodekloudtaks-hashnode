@@ -65,7 +65,7 @@ tags: linux, kodekloud
     > * Now do `ls -al index.html`
     >     
     > 
-    > *Note: You will find a link* `index.html` *pointing to the original file. Go to that pointed file and edit that* `index.html` *file. If it exists there o/w create a new file under that directory. So in our case, the* `HTML` *directory was created under the '*`doc/`*' directory. So I had to create it and edit the index.html file*
+    > *Note: You will find a link*`index.html`*pointing to the original file. Go to that pointed file and edit that*`index.html`*file. If it exists there o/w create a new file under that directory. So in our case, the*`HTML`*directory was created under the '*`doc/`*' directory. So I had to create it and edit the index.html file*
     > 
     > ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1688212028930/8fc5120d-7544-4542-9f61-dfc4cf52eacd.png align="center")
     > 
@@ -101,3 +101,7 @@ tags: linux, kodekloud
     
 
 Response should be `200 ok.`
+
+### Know me:
+
+Hi, I am Sachin Khamitkar, a passionate devops engineer and an Expert Support Engineer. As a DevOps enthusiast and technology fan, I am passionate about automating workflows, optimizing infrastructure, and improving deployment processes. I love sharing insights on cloud strategies, containerization, and continuous delivery. With 6 years of experience in Technical and Application Support, I have a strong foundation in DevOps practices. I excel in root cause analysis, SLA adherence, and enhancing software stability. My skills include log analysis, SQL reporting, and CI/CD pipeline optimization. I have a proven track record in deploying builds, patches, and maintaining production environments. Additionally, I bring expertise in incident, problem, and change management following ITIL standards. If you're as excited about DevOps as I am, let's connect 🌟 me on [LinkedIn](https://www.linkedin.com/in/sachin-khamitkar)🔗💼, [GitHub](https://github.com/sachin-2-github)💻🔗, and [Email](mailto:sachin.bmp@gmail.com)📧 for more tech tips, tutorials, and exciting projects! Let's innovate together and drive the future of DevOps! 🚀👩‍💻💡
