@@ -38,14 +38,15 @@ tags: linux, security, firewall, linux-for-beginners, kodekloud
     -A INPUT -p tcp --dport 6200 -j DROP
     ```
     
-    1. Save the file
-        
-    2. Restart the `iptables` service
-        
-        ```plaintext
-        sudo systemctl restart iptables
-        ```
-        
+4. Save the file
+    
+5. Restart the `iptables` service
+    
+    ```plaintext
+    sudo systemctl restart iptables
+    ```
+    
 
-## Reference:  
+## Reference:
+
 `iptables is a powerful Linux-based firewall utility that allows network administrators to configure and manage netfilter rules to filter network traffic. It is a tool for managing firewall rules and routing tables on Linux systems. iptables is typically used to secure a server or network by preventing unauthorized access and filtering unwanted traffic. It can be used to block specific IP addresses or ports, filter packets based on protocols or connection states, and more. iptables is a fundamental component of Linux network security and is included in most Linux distributions.`
