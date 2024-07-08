@@ -9,7 +9,7 @@ tags: linux, security, firewall, linux-for-beginners, kodekloud
 
 ---
 
-Problem:
+## Problem:
 
 > We have a backup management application UI hosted on
 > 
@@ -21,7 +21,7 @@ Problem:
 > 
 > ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1683613088238/f0f0f30e-cf78-46fa-b2b6-362642f0309c.png align="left")
 
-Solution:
+## Solution:
 
 1. ssh into the backup server
     
@@ -47,5 +47,5 @@ Solution:
         ```
         
 
-Reference:  
+## Reference:  
 `iptables is a powerful Linux-based firewall utility that allows network administrators to configure and manage netfilter rules to filter network traffic. It is a tool for managing firewall rules and routing tables on Linux systems. iptables is typically used to secure a server or network by preventing unauthorized access and filtering unwanted traffic. It can be used to block specific IP addresses or ports, filter packets based on protocols or connection states, and more. iptables is a fundamental component of Linux network security and is included in most Linux distributions.`
