@@ -21,7 +21,7 @@ tags: kodekloud, kodekloudengineer, kodekloudtasks, kodekloud-coupons
 
 1. ssh into `App server3`
     
-2. Create 2 file `cron.allow` and `corn.deny` under /etc
+2. Verify if `cron.allow` and `corn.deny` under `/etc/` are present, if not then create these 2 files. In my case, these files were not there. So, I had to create.
     
     ```plaintext
     sudo touch /etc/cron.allow
@@ -35,7 +35,7 @@ tags: kodekloud, kodekloudengineer, kodekloudtasks, kodekloud-coupons
     sudo echo "eric" >> /etc/cron.deny
     ```
     
-    *Note: 3rd step can be done using any file editor like* `vi` *or* `nano` *too.*
+    *Note: 3rd step can be done using any file editor like*`vi`*or*`nano`*too.*
     
 
 # About me:
