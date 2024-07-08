@@ -25,7 +25,7 @@ Solution:
 
 1. ssh into the backup server
     
-2. Open the iptables firewall configuration file using the following command
+2. Open the `iptables` firewall configuration file using the following command
     
     ```plaintext
     sudo nano /etc/sysconfig/iptables
@@ -40,7 +40,7 @@ Solution:
     
     1. Save the file
         
-    2. Restart the iptables service
+    2. Restart the `iptables` service
         
         ```plaintext
         sudo systemctl restart iptables
