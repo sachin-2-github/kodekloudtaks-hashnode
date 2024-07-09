@@ -21,18 +21,18 @@ tags: kodekloud, kodekloudengineer, kodekloudtasks
 
 ssh into all `app servers` and repeat the steps.
 
-1. 1. Edit the `systemd` configuration to change the default target (`runlevel`):
-        
-        ```plaintext
-        sudo systemctl set-default graphical.target
-        ```
-        
-    2. **Verify:** Check the current target to ensure it's set correctly:
-        
-        ```plaintext
-        sudo systemctl get-default
-        ```
-        
+1. Edit the `systemd` configuration to change the default target (`runlevel`):
+    
+    ```plaintext
+    sudo systemctl set-default graphical.target
+    ```
+    
+2. Verify: Check the current target to ensure it's set correctly:
+    
+    ```plaintext
+    sudo systemctl get-default
+    ```
+    
 
 # About me:
 
