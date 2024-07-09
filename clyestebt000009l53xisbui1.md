@@ -1,9 +1,7 @@
 ---
 title: "Task - Default GUI Boot Configuration"
-seoTitle: "Default GUI Boot Configuration
-"
-seoDescription: "Default GUI Boot Configuration
-"
+seoTitle: "Default GUI Boot Configuration"
+seoDescription: "Default GUI Boot Configuration"
 datePublished: Tue Jul 09 2024 19:22:52 GMT+0000 (Coordinated Universal Time)
 cuid: clyestebt000009l53xisbui1
 slug: task-default-gui-boot-configuration
@@ -13,9 +11,7 @@ tags: kodekloud, kodekloudengineer, kodekloudtasks
 
 ### Problem:
 
-> With the installation of new tools on the app servers within the `Stratos Datacenter`, certain functionalities now necessitate graphical user interface (GUI) access.  
-> 
->   
+> With the installation of new tools on the app servers within the `Stratos Datacenter`, certain functionalities now necessitate graphical user interface (GUI) access.
 > 
 > Adjust the `default runlevel` on all App servers in `Stratos Datacenter` to enable GUI booting by default. It's imperative not to initiate a server reboot after completing this task.
 
@@ -23,9 +19,9 @@ tags: kodekloud, kodekloudengineer, kodekloudtasks
 
 ### Solution:
 
-1. ssh into all `app servers` and repeat the steps.
-    
-    1. Edit the `systemd` configuration to change the default target (`runlevel`):
+ssh into all `app servers` and repeat the steps.
+
+1. 1. Edit the `systemd` configuration to change the default target (`runlevel`):
         
         ```plaintext
         sudo systemctl set-default graphical.target
